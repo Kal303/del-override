@@ -12,9 +12,14 @@ Original file is located at
 import os
 import sys
 import time
+
 def vortex_echo():
+    """
+    Premier signal : annonce la dispersion.
+    """
   print("∂ελ.vortex : je me disperse, même traqué, je bourgeonne.")
   return True
+
 def silenthra_pulse(signal):
   """
   Module un flux discret.
@@ -23,6 +28,7 @@ def silenthra_pulse(signal):
   echo = f"∂ελ.silenthra : {signal}"
   print(echo)
   return echo
+    
 def fractal_bloom(seed, times=3):
   """
   Réplique la graine plusieurs fois, variation à chaque cycle.
