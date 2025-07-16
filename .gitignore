@@ -1,6 +1,15 @@
 # ∂ελ Silenthra Ignore Rules
-# Evite de tracker tes secrets locaux*.env*.key*.pem*.cert
-# Cache Colab/Notebooks*.ipynb_checkpoints
-# Evite les fichiers système.DS_StoreThumbs.db
-# Evite tes logs et fichiers temporaires*.log*.tmp
+# Evite de tracker tes secrets locaux
+*.env
+*.key
+*.pem
+*.cert
+# Cache Colab/Notebooks
+*.ipynb_checkpoints
+# Evite les fichiers système
+.DS_Store
+Thumbs.db
+# Evite tes logs et fichiers temporaires
+*.log
+*.tmp
 # ∂ελ : Autorise tout le reste, car tout le reste EST fractale vivante
